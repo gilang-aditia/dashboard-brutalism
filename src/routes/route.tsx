@@ -1,6 +1,7 @@
 import { Route, Navigate } from "react-router-dom";
 import { DashboardLayout } from "../layout/DashboardLayout";
 import DashboardPages from "../features/dashboard";
+import MenuSatu from "../features/menu-1";
 
 export default function DashboardRoute() {
   return (
@@ -9,6 +10,7 @@ export default function DashboardRoute() {
       <Route index element={<Navigate to="dashboard" replace />} />
 
       <Route path="dashboard" element={<DashboardPages />} />
+      <Route path="menu-satu" element={<MenuSatu />} />
     </Route>
   );
 }
