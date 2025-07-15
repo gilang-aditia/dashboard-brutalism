@@ -27,8 +27,8 @@ export const DashboardMenus = [
   },
   {
     id: "halamanRecipes",
-    label: "Halaman Receipes",
-    href: "halamanrecipes",
+    label: "Form",
+    href: "menu-dua",
     icon: <ReceiptCent size={18} />,
   },
   {

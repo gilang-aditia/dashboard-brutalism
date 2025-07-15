@@ -2,6 +2,7 @@ import { Route, Navigate } from "react-router-dom";
 import { DashboardLayout } from "../layout/DashboardLayout";
 import DashboardPages from "../features/dashboard";
 import MenuSatu from "../features/menu-1";
+import FOrmTest from "../features/menu-2";
 
 export default function DashboardRoute() {
   return (
@@ -11,6 +12,7 @@ export default function DashboardRoute() {
 
       <Route path="dashboard" element={<DashboardPages />} />
       <Route path="menu-satu" element={<MenuSatu />} />
+      <Route path="menu-dua" element={<FOrmTest />} />
     </Route>
   );
 }
